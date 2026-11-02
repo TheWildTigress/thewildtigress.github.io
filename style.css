@@ -17,3 +17,10 @@ footer{flex-wrap:wrap;align-items:center;padding-bottom:28px}
 @media(max-width:650px){footer{padding-bottom:24px}.copyright{font-size:13px;line-height:1.5}}
 @media(max-width:900px){.top-social a span{display:none}.top-follow{gap:20px}.featured-media{gap:14px}}
 @media(max-width:650px){.topbar{gap:10px}.top-social{gap:10px;margin-left:auto}.top-social a{font-size:16px}.top-follow{flex-wrap:wrap;gap:10px 20px;padding:13px 4%}.top-follow>span{width:100%;text-align:center}.top-follow a{font-size:8px}.featured-media{grid-template-columns:1fr}.youtube-frame{max-height:600px}.instagram-embed-wrap{height:560px}.media-heading{flex-wrap:wrap}}
+
+.icon-sprite{position:absolute;width:0;height:0;overflow:hidden}
+.icon{width:1.05em;height:1.05em;display:inline-block;vertical-align:-.15em;fill:currentColor;flex:none}
+.top-social a,.top-follow a,.media-platform,.social-strip>a{display:inline-flex;align-items:center;gap:6px}
+.trait-icon .icon{width:28px;height:28px}
+.social-icon{display:inline-flex;align-items:center;margin-right:2px}
+.social-icon .icon{width:16px;height:16px}
